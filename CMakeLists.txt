@@ -62,6 +62,8 @@ if(LIBIGL_BUILD_TUTORIALS)
 	add_subdirectory(tutorial)
 endif()
 
+add_subdirectory(experiments)
+
 if(LIBIGL_BUILD_TESTS)
 	include(CTest)
 	enable_testing()
